@@ -1,0 +1,21 @@
+{
+    "intents": [
+        { "tag" : "start",
+    "patterns":["How to enroll?","Is there an online enrollment?","When is the enrollment"],
+    "responses":["First is the pre-registration, just click the link","Sorry but we don't have","On the 3rd week of June"]
+    },
+    { "tag" : "requirements",
+    "patterns":["What are the requirements?","What is the process of enrollment?","Are you a transferee or not?"],
+    "responses":["Must have a PSA Birth Certf and Form 137, Must have TOr for Transferee","Pre-register is the first do to before going to school","Just go to school and bring with you your requirements"]
+    },
+    { "tag" : "offer",
+    "patterns":["What are the Courses offered?","Is there any TESDA courses?","Is there any 2yr courses?"],
+    "responses":["DrivingNCII, SMAW, HEO","BSIT,BSCE,BSCRIM,BSBA,BSHM,THM,BSAGRI,BSED,BEED","ACT,HM"]
+    },
+    { "tag" : "process",
+    "patterns":["What is the first step in enrollment?","Is there any fees?","Is there an entrance exam?"],
+    "responses":["Medical at the MST building","500 pesos","BSIT, BPA, BSBA and THM have no Entrance Exam"]
+    }
+    
+    ]
+    }
